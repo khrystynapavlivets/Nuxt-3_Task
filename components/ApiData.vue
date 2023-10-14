@@ -11,7 +11,7 @@ fetch(apiUrl)
     })
     .then(data => {
         const siteData = data.data.siteData.testTaskTemplate_30_15673;
-
+        console.log(data);
         console.log(siteData.testTaskHeaderTitle);
         console.log(siteData.testTaskHeaderSubtitle);
         console.log(siteData.testTaskHeaderText);
