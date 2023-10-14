@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
     experimental: {
-    payloadExtraction: false
+    payloadExtraction: true
   }
 })
 
